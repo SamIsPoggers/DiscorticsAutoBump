@@ -9,7 +9,7 @@ InfLoop = True
 #Infinite Loop
 while InfLoop = True:
     
-    url = "https://discord.com/api/v9/channels/",ChannelID,"/messages"
+    url = "https://discord.com/api/v9/channels/" + ChannelID + "/messages"
     
     payload = {
         "content" : ";bump"
